@@ -1,0 +1,1 @@
+This repository contains a simple Rust program demonstrating a potential data race. The program attempts to modify a variable through multiple mutable references simultaneously, which can lead to unpredictable results. The solution demonstrates how to avoid data races by using techniques such as mutexes or other synchronization primitives.
